@@ -26,7 +26,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" : "http://www.jamsilac.cafe24.com/",
-      "img" : "../images/.jpg"
+      "img" : "../images/jamsil.jpg"
     },
     {
       "name" : "스킨앤이어 동물병원",
@@ -161,7 +161,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/.jpg"
+      "img" : "../images/daily.jpg"
     },
     {
       "name" : "에코 동물병원",

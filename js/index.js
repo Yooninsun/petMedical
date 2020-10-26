@@ -39,21 +39,21 @@ $.ajax({
   }
 })
 
-$('body').on('click', '.mainContent .hospital a', function(e) {
+$('body').on('click', '.mainContent .hospital a, #lnb_navi a', function(e) {
   e.preventDefault();
   var url = $(this).attr('href');
-  var part = $(this).attr('id');
+  var part = $(this).attr('class');
   $('#container > #content').remove();
   $('#container').load(url + ' #content', function() {
     var newContent = '';
     for(var i in usedata[part]) {
-      newContent += `<li><div class="medicalInfo col-6 com-md-6"><div class="img"><img src="${usedata[part][i].Img}" alt="동물병원사진"></div>`; 
-      newContent += `<h4>${usedata[part][i].Name}</h4>`;
-      newContent += `<a href="tel:02-555-2272">02-555-2272</a>`;
-      newContent += `<p class="add">서울 송파구 가락로 140 2층 201호</p>`;
-      newContent += `<p class="hour1">월~금요일 10:00-20:00</p>`;
-      newContent += `<p class="hour2">토요일 10:00-20:00</p>`;
-      newContent += `<p class="homepage"><a href="https://blog.naver.com/raonpet">https://blog.naver.com/raonpet</a></p></div></li>`
+      newContent += `<li><div class="medicalInfo col-12 col-md-12"><div class="img"><img src="${usedata[part][i].img}" alt="동물병원사진"></div>`; 
+      newContent += `<h4>${usedata[part][i].name}</h4>`;
+      newContent += `<a href="tel:${usedata[part][i].tell}">${usedata[part][i].tell}</a>`;
+      newContent += `<p class="add">${usedata[part][i].address}</p>`;
+      newContent += `<p class="hour1">${usedata[part][i].hours1}</p>`;
+      newContent += `<p class="hour2">${usedata[part][i].hours2}</p>`;
+      newContent += `<p class="homepage"><a href="${usedata[part][i].hompage}">${usedata[part][i].hompage}</a></p></div></li>`
     }
     $('#content .medicalList').html(`<ul>${newContent}</ul>`);
   })

@@ -159,23 +159,3 @@ width: 100%; border-radius: 5px; }
   margin: 10px 0 0;
 } 
 
-/*서브페이지 공통  스타일*/
-.contTit h2 a {  
-  text-align:center; background:#4fdfbb ;border:olive 1px solid;
-  font-size: 24px; height: 80px; line-height: 80px; margin-bottom: 20px;
-}
-.allmedical .medicalList { text-align: center;}
-.allmedical .medicalList li { 
-  display: inline-block;
-  width: 49.5%; 
-}
-.allmedical .medicalInfo {
-  background:#fff5e9;
-  border-radius: 15px; 
-  border: 2px sienna solid;
-  font-size: 20px;
-}
-
-.allmedical .medicalInfo img { width: 90%; padding: 15px 0;}
-.allmedical .medicalInfo h4 { font-size: 24px; font-weight: 600;}
-.allmedical .medicalInfo p.hour1 {margin: 5px;}

@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+
+/*서브페이지 공통  스타일*/
+.contTit h2  {  
+  text-align:center; background:#4fdfbb ;border:olive 1px solid;
+  font-size: 24px; height: 80px; line-height: 80px; 
+}
+
+.allmedical .medicalList 
+{ text-align: center; margin: 0 auto;}
+
+.allmedical .medicalList ul {
+  background: #fff; overflow: hidden;
+}
+
+.allmedical .medicalList li { 
+  display: inline; float: left;
+  width: 50%; 
+  text-align: center; margin: 0 auto;
+}
+.allmedical .medicalInfo {
+  background:#fff5e9;
+  width: 100%;
+  border-radius: 15px; 
+  border: 2px sienna solid;
+  font-size: 16px;
+  height: 410px;
+}
+
+.allmedical .medicalInfo img { width: 90%; padding: 15px 0; height: 200px ;}
+.allmedical .medicalInfo h4 { font-size: 24px; font-weight: 600;}
+.allmedical .medicalInfo p {margin: 5px;}
