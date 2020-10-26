@@ -1,0 +1,421 @@
+{
+  "medicalCenter" :[
+    {
+      "name" : "라온펫 동물병원",
+      "tell" : "02-555-2272",
+      "address" : "서울 송파구 가락로 140 2층 201호 라온펫동물병원",
+      "hours1" : "월~금요일 10:00 - 20:00",
+      "hours2" : "토요일  10:00 - 20:00",
+      "hompage" : "https://blog.naver.com/raonpet",
+      "img" : "../images/lion.jpg"
+      
+    },
+    {
+      "name" : "석촌 동물병원",
+      "tell" : "02-414-7975",
+      "address" : "서울 송파구 송파대로 441 청호빌딩 102호",
+      "hours1" : "평일 10 : 30 - 20 : 00 ",
+      "hours2" : "일요/공휴일 10 : 30 - 20 : 00",
+      "hompage" : "https://blog.naver.com/kmhcvt",
+      "img" : "../images/sekchon.jpg"
+    },
+    {
+      "name" : "잠실 종합동물병원",
+      "tell" : "02-415-7585",
+      "address" : "서울 송파구 송파대로 388 창영빌딩 1층",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" : "http://www.jamsilac.cafe24.com/",
+      "img" : "../images/.jpg"
+    },
+    {
+      "name" : "스킨앤이어 동물병원",
+      "tell" : "02-417-3021",
+      "address" : "서울 송파구 송파대로 474 성정빌딩",
+      "hours1" : "평일  09 : 30 - 18 : 30",
+      "hours2" : "토요일  09 : 00 - 18 : 00 (일요/공휴일 휴무)",
+      "hompage" :"https://skinnear.modoo.at/",
+      "img" : "../images/skinear.jpg"
+    },
+    {
+      "name" : "송파동물 의료센터",
+      "tell" : "02-424-3662",
+      "address" : "서울 송파구 송파대로 378",
+      "hours1" : "매일  09 : 00 - 22 : 00",
+      "hours2" : "",
+      "hompage" :"http://blog.naver.com/kangdvm",
+      "img" : "../images/songpa.jpg"
+    },
+    {
+      "name" : "송파원 동물병원",
+      "tell" : "0507-1402-7571",
+      "address" : "서울 송파구  백제고분로 432 2층",
+      "hours1" : "평일  10 : 00 - 20 : 00",
+      "hours2" : "토/일요일  10 : 00 - 20 : 00",
+      "hompage" :"http://www.songpawonah.co.kr/xe/",
+      "img" : "../images/one.jpg"
+    },
+    {
+      "name" : "호수 동물병원",
+      "tell" : "02-413-7514",
+      "address" : "서울 송파구 오금로 127 레이크 해모로",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/hosu.jpg"
+    },
+    {
+      "name" : "펫가든 동물병원 월드타워점",
+      "tell" : "02-3213-2798",
+      "address" : "서울 송파구 올림픽로 200 롯데월드몰 지하1층",
+      "hours1" : "매일  10 : 00 - 21 : 00",
+      "hours2" : "둘째,넷째 일요일 휴무",
+      "hompage" :"http://blog.naver.com/petgardenwt",
+      "img" : "../images/garden.jpg"
+    },
+    {
+      "name" : "더샵 동물메디컬센터",
+      "tell" : "0507-1326-7512",
+      "address" : "서울 송파구 올림픽로35가길 9 2층 207호",
+      "hours1" : "평일  10 : 00 - 21 : 00",
+      "hours2" : "주말/공휴일 10:00 - 20 : 00",
+      "hompage" :"https://blog.naver.com/thesharpah",
+      "img" : "../images/thesharp.jpg"
+    },
+    {
+      "name" : "헬리오동물병원",
+      "tell" : "02-2135-6575",
+      "address" : "서울 송파구 송파대로 345 헬리오시티 3B 28-29",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10 : 00 - 20 :00",
+      "hompage" :"https://blog.naver.com/helioamc",
+      "img" : "../images/helio.jpg"
+    },
+    {
+      "name" : "이룸 동물병원",
+      "tell" : "02-419-7580",
+      "address" : "서울 송파구 삼학사로 44 보라빌딩",
+      "hours1" : "매일  10 : 00 - 21 : 30",
+      "hours2" : "주말  10 : 00 - 21 : 00",
+      "hompage" :"https://blog.naver.com/erumah",
+      "img" : "../images/irum.jpg"
+    },
+    {
+      "name" : "잠실준25시 동물병원",
+      "tell" : "02-415-7580",
+      "address" : "서울 송파구 석촌호수로 138",
+      "hours1" : "월~토요일 10 : 00 - 21 : 00",
+      "hours2" : "일요일  11 : 00 - 19 : 00",
+      "hompage" :"https://blog.naver.com/vetjoon",
+      "img" : "../images/jun.jpg"
+    },
+    {
+      "name" : "리센츠스타 동물병원",
+      "tell" : "02-419-1010",
+      "address" : "서울 송파구 올림픽로 145 리센츠 상가1층 c13~14호",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "토요일 10 : 00 - 19 : 00",
+      "hompage" :"https://blog.naver.com/ricenzstar",
+      "img" : "../images/lsents.jpg"
+    },
+    {
+      "name" : "행복한우리아이 동물병원",
+      "tell" : "02-424-7552",
+      "address" : "서울 송파구 석촌호수로 146",
+      "hours1" : "매일  09 : 00 - 21 : 00",
+      "hours2" : "토/일요일 휴무",
+      "hompage" :"https://blog.naver.com/dnfldkdlah",
+      "img" : "../images/oriI.jpg"
+    },
+    {
+      "name" : "위드펫 종합동물병원",
+      "tell" : "02-2202-0075",
+      "address" : "서울 송파구 백제고분로 161 성선빌딩",
+      "hours1" : "매일  19 : 30 - 20 : 00",
+      "hours2" : "주말/공휴일 09 : 30 - 19 : 00 (연중무휴)",
+      "hompage" :"https://blog.naver.com/withpetah",
+      "img" : "../images/widthpet.jpg"
+    },
+    {
+      "name" : "웰니스동물병원 롯데월드점",
+      "tell" : "0507-1330-1480",
+      "address" : "서울 송파구 올림픽로 240 s-911 ",
+      "hours1" : "매일  10 : 00 - 20 : 00(수요일 18 : 00)",
+      "hours2" : "주말 10 : 00 - 19 :00",
+      "hompage" :"https://blog.naver.com/wellnesslw",
+      "img" : "../images/well.jpg"
+    },
+    {
+      "name" : "꿈이크는 동물병원",
+      "tell" : "0507-1416-7580",
+      "address" : "서울 송파구 백제고분로 115 그린빌딩",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10 : 00 - 19 : 00",
+      "hompage" :"https://blog.naver.com/rokvet",
+      "img" : "../images/dream.jpg"
+    },
+    {
+      "name" : "송파데일리 동물병원",
+      "tell" : "05--",
+      "address" : "서울 송파구 ",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/.jpg"
+    },
+    {
+      "name" : "에코 동물병원",
+      "tell" : "02-433-2222",
+      "address" : "서울 송파구 동남로 161 청공빌딩 101호 ",
+      "hours1" : "매일  09 : 00 - 21 : 00",
+      "hours2" : "주말 09 : 00 - 18 : 00",
+      "hompage" :"https://blog.naver.com/ecoanimal",
+      "img" : "../images/eco.jpg"
+    },
+    {
+      "name" : "키다리 동물병원",
+      "tell" : "02-6401-1512",
+      "address" : "서울 송파구 새말로 62 송파 푸르지오시티 ",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10 : 00 - 18 : 00 (일/공휴일 휴무)",
+      "hompage" :"https://blog.naver.com/scarface928",
+      "img" : "../images/longleg.jpg"
+    },
+    {
+      "name" : "리오 동물병원",
+      "tell" : "02-415-7579",
+      "address" : "서울 송파구 올림픽로 435 파크리오",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/rio.jpg"
+    },
+    {
+      "name" : "킴리 동물병원 ",
+      "tell" : "02-6925-5475",
+      "address" : "서울 송파구 올림픽로35길 장미2차맨션 2동 장미전철상가2층",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 정상진료",
+      "hompage" :"-",
+      "img" : "../images/kimlee.jpg"
+    },
+
+    {
+      "name" : "온마음 동물메디컬센터",
+      "tell" : "02-499-0075",
+      "address" : "서울 송파구 오금로 473 정림빌딩 1층",
+      "hours1" : "매일  09 : 00 - 22 : 00",
+      "hours2" : "토요/공휴일 10 : 00 - 18 :00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/beingamc",
+      "img" : "../images/onmom.jpg"
+    },
+    {
+      "name" : "라임 동물병원",
+      "tell" : "02-6227-7582",
+      "address" : "서울 송파구 가락로 258 세림빌딩",
+      "hours1" : "매일  09 : 30 - 21 : 00",
+      "hours2" : "토요일 09 : 30 - 19 : 00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/mino0917",
+      "img" : "../images/lime.jpg"
+    },
+    {
+      "name" : "유앤 동물의료원",
+      "tell" : "02-2043-7582",
+      "address" : "서울 송파구 양재대로 1148 왕천빌딩 1층",
+      "hours1" : "매일  10 : 00 - 21 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/un.jpg"
+    },    
+    {
+      "name" : "에버펫 동물병원",
+      "tell" : "02-409-7533",
+      "address" : "서울 송파구 오금로 42 연암빌딩 ",
+      "hours1" : "매일  09 : 30 - 21 : 00",
+      "hours2" : "주말/공휴일 09 : 30 - 20 : 00",
+      "hompage" :"https://blog.naver.com/everpet",
+      "img" : "../images/ever.jpg"
+    },   
+    {
+      "name" : "문정힐스 동물병원",
+      "tell" : "02-404-5852",
+      "address" : "서울 송파구 법원로4길 10 힐스테이트에코문정1층 120,121호",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "토/일요일 10 : 00 - 19 : 00",
+      "hompage" :"https://blog.naver.com/munjeonghills",
+      "img" : "../images/mjh.jpg"
+    },
+    {
+      "name" : "채움 동물의료센터",
+      "tell" : "0507-1351-6933",
+      "address" : "서울 송파구 동남로 282",
+      "hours1" : "매일  09 : 30 - 22 : 00",
+      "hours2" : "연중 무휴",
+      "hompage" :"https://blog.naver.com/walkhappy12",
+      "img" : "../images/chaum.jpg"
+    },    
+    {
+      "name" : "가락 동물병원",
+      "tell" : "02-413-0075",
+      "address" : "서울 송파구 오금로 247 건양빌딩",
+      "hours1" : "매일  09 : 30 - 19 : 00",
+      "hours2" : "토요일 09 : 30 - 17 : 00(일요/공휴일 휴무)",
+      "hompage" :"-",
+      "img" : "../images/garak.jpg"
+    },        
+    {
+      "name" : "문정탑 동물병원",
+      "tell" : "02-431-075",
+      "address" : "서울 송파구 송이로 186 성해아마트 ",
+      "hours1" : "매일  10 : 30 - 19 : 00",
+      "hours2" : "토요일 10 : 00 - 17 :00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/mjtopah",
+      "img" : "../images/mjtop.jpg"
+    },    
+    {
+      "name" : "동물병원 알루",
+      "tell" : "0507-1336-3270",
+      "address" : "서울 송파구 법원로4길6 문정아이파크 1층 128~129호 ",
+      "hours1" : "매일  09 : 30 - 21 : 30",
+      "hours2" : "일요일 09 : 30 - 19 : 00",
+      "hompage" :"https://blog.naver.com/animalslikeus",
+      "img" : "../images/alu.jpg"
+    },    
+    {
+      "name" : "영국 동물병원",
+      "tell" : "02-430-7005",
+      "address" : "서울 송파구 동남로18길 무영빌딩",
+      "hours1" : "매일  09 : 00 - 20 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/uk.jpg"
+    },
+    {
+      "name" : "마루 동물병원",
+      "tell" : "02-443-8898",
+      "address" : "서울 송파구 양산로4길13 101호",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"https://blog.naver.com/marooah",
+      "img" : "../images/maru.jpg"
+    },
+    {
+      "name" : "위례S 동물의료센터",
+      "tell" : "02-431-7575",
+      "address" : "서울 송파구 위례광장로 200 SB트램스퀘어 2층",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"https://blog.naver.com/snuamc",
+      "img" : "../images/weS.jpg"
+    },
+    {
+      "name" : "위례 동물병원",
+      "tell" : "02-3401-0075",
+      "address" : "서울 송파구 위례광장로 136 아이파크1차상가 1층 ",
+      "hours1" : "평일 10 : 00 - 20 : 00",
+      "hours2" : "토요/공휴일 10 : 00 - 19: 00 (일요일 휴무) ",
+      "hompage" :"https://blog.naver.com/wiryevet",
+      "img" : "../images/wr.jpg"
+    },
+    {
+      "name" : "희망 동물병원",
+      "tell" : "02-414-7588",
+      "address" : "서울 송파구 올림픽로 88 올림픽타워",
+      "hours1" : "매일  09 : 00 - 20 : 00",
+      "hours2" : "토요/공휴일  09 : 00 - 19 : 00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/hope19900",
+      "img" : "../images/heemang.jpg"
+    },    
+    {
+      "name" : "두리 동물병원",
+      "tell" : "02-449-8575",
+      "address" : "서울 송파구 성내천로 229",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/duri.jpg"
+    },
+    {
+      "name" : "동물의왕국 동물병원",
+      "tell" : "02-406-4814",
+      "address" : "서울 송파구 마천로 263",
+      "hours1" : "매일  10 : 00 - 22 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/king.jpg"
+    },
+    {
+      "name" : "노아 동물병원",
+      "tell" : "02-401-0075",
+      "address" : "서울 송파구 오금로 498",
+      "hours1" : "매일  10 : 00 - 21 : 00",
+      "hours2" : "일요일 휴무",
+      "hompage" :"-",
+      "img" : "../images/noa.jpg"
+    },
+    {
+      "name" : "늘푸른 종합동물병원",
+      "tell" : "02-449-0101",
+      "address" : "서울 송파구 마천로5길 16",
+      "hours1" : "매일  09 : 30 - 19 : 00",
+      "hours2" : "토요/공휴일 09 : 30 - 16 : 00 (일요일 휴무)",
+      "hompage" :"-",
+      "img" : "../images/always.jpg"
+    },
+    {
+      "name" : "쿨독 동물병원",
+      "tell" : "02-408-5400",
+      "address" : "서울 송파구 중대로9길 48 지하1층",
+      "hours1" : "매일  09 : 30 - 19 : 30",
+      "hours2" : "토요일 09 : 30 - 18 :30 (일요일 휴무)",
+      "hompage" :"-",
+      "img" : "../images/cooldog.jpg"
+    },
+    {
+      "name" : "김민재 동물병원",
+      "tell" : "02-443-8973",
+      "address" : "서울 송파구 동남로 318",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10: 00 - 19 : 00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/kmjhkn0075",
+      "img" : "../images/kmj.jpg"
+    },
+    {
+      "name" : "한양 종합동물병원",
+      "tell" : "02-420-9993",
+      "address" : "서울 송파구 가락로 162 ",
+      "hours1" : "매일  09 : 00 - 21 : 30",
+      "hours2" : "연중 무휴",
+      "hompage" :"-",
+      "img" : "../images/hy.jpg"
+    },
+    {
+      "name" : "청담 동물종합병원",
+      "tell" : "02-473-0577",
+      "address" : "서울 송파구 토성로 30-1",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10 : 00 - 18 : 00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/chungdam_ah",
+      "img" : "../images/chung.jpg"
+    },
+    {
+      "name" : "더오 동물병원",
+      "tell" : "02-423-5755",
+      "address" : "서울 송파구 송파대로 567 병원부지상가 106호",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "토요일 10 : 00 - 14 : 30 (일요일 휴무)",
+      "hompage" :"https://www.instagram.com/the_o_animal/",
+      "img" : "../images/theO.jpg"
+    },
+    {
+      "name" : "바우 동물병원",
+      "tell" : "02-424-7582",
+      "address" : "서울 송파구 올림픽로35길 112 장미b상가 108호 ",
+      "hours1" : "매일  10 : 00 - 20 : 00",
+      "hours2" : "토요일 10 : 00 - 20 : 00 (일요일 휴무)",
+      "hompage" :"https://blog.naver.com/dvmbau",
+      "img" : "../images/bou.jpg"
+    }
+
+  ]
+}
