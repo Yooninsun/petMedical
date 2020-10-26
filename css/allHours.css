@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+
+/*서브페이지 공통  스타일*/
+.contTit h2  {  
+  text-align:center; background:#ffd200 ;border:olive 1px solid;
+  font-size: 24px; height: 80px; line-height: 80px; 
+}
+
+.allHours .allHoursList 
+{ text-align: center; margin: 0 auto;}
+
+.allHours .allHoursList ul {
+  background: #fff; overflow: hidden;
+}
+
+.allHours .allHoursList li { 
+  display: inline; float: left;
+  width: 50%; 
+  text-align: center; margin: 0 auto;
+}
+.allHours .allHoursInfo {
+  background:#ffe2e4;
+  width: 100%;
+  border-radius: 15px; 
+  border: 2px sienna solid;
+  font-size: 16px;
+  height: 410px;
+}
+
+.allHours .allHoursInfo img { width: 90%; padding: 15px 0; height: 200px ;}
+.allHours .allHoursInfo h4 { font-size: 24px; font-weight: 600;}
+.allHours .allHoursInfo p {margin: 5px;}
