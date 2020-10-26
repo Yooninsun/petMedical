@@ -1,5 +1,5 @@
 {
-  "medicalCenter" :[
+  "allCenter" :[
     {
       "name" : "라온펫 동물병원",
       "tell" : "02-555-2272",
@@ -490,6 +490,17 @@
       "hours2" : "연중무휴",
       "hompage" :"https://blog.naver.com/baroah",
       "img" : "../images/baro.jpg"
+    }
+  ],
+    "onlyCat" : [
+    {
+      "name" : "닥터캣 고양이병원",
+      "tell" : "0507-1314-2575",
+      "address" : "서울 송파구 백제고분로 293 백제인삼사우나 2층",
+      "hours1" : "매일  10 : 00 - 19 : 00",
+      "hours2" : "토요일 10 : 00 - 19: 00",
+      "hompage" :"http://drcat.pet-mate.net/",
+      "img" : "../images/doctor.jpg"
     }
   ]
 }

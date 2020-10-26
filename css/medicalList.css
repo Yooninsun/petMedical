@@ -2,19 +2,21 @@
 
 
 /*서브페이지 공통  스타일*/
-.contTit h2  {  
-  text-align:center; background:#4fdfbb ;border:olive 1px solid;
+.allmedical .contTit h2  {  
+  text-align:center; background:#4fdfbb ;
   font-size: 24px; height: 80px; line-height: 80px; 
+  margin-bottom: 0;
 }
 
-.allmedical .medicalList 
+.allmedical .listBox 
 { text-align: center; margin: 0 auto;}
 
-.allmedical .medicalList ul {
+.allmedical .listBox ul {
   background: #fff; overflow: hidden;
+  margin-bottom: 0;
 }
 
-.allmedical .medicalList li { 
+.allmedical .listBox li { 
   display: inline; float: left;
   width: 50%; 
   text-align: center; margin: 0 auto;
@@ -23,7 +25,7 @@
   background:#fff5e9;
   width: 100%;
   border-radius: 15px; 
-  border: 2px sienna solid;
+  border: 2px #4fdfbb solid ;
   font-size: 16px;
   height: 410px;
 }

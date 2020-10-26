@@ -99,11 +99,11 @@ width: 100%; border-radius: 5px; }
 #content .allDay  a {
   background:#fff5e9 ; 
 }
-#content .onlyCat,
+#content .forCat,
 #service .salon {
   padding-left: 7.5px;
 }
-#content .onlyCat a {
+#content .forCat a {
   background:#ffffdd ; margin-bottom: 15px;
 }
 #allList .hospital a {
