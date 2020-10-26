@@ -48,7 +48,7 @@
 
 #header .r_menu .search a,
 #header .r_menu .bookMark a {
-  font-size: 20px; padding: 20px 10px;
+  font-size: 18px; padding: 20px 10px;
 }
 
 
@@ -63,7 +63,7 @@
  }
 #lnb_navi ul li{
   margin: 5px; padding: 10px; border-radius: 5px;
-  flex: 300px; font-size: 24px;
+  flex: 300px; font-size: 20px;
  }
 
 /* lnb hover시 backgruond 컬러 변경 */
@@ -73,8 +73,7 @@
 
 
 #container {
-  background: #f7f7f7; font-size: 24px
-
+  background: #f7f7f7; font-size: 20px
 }
 #content #notice,
 #content #allList {
@@ -159,3 +158,9 @@ width: 100%; border-radius: 5px; }
   margin: 10px 0 0;
 } 
 
+
+@media screen and (max-width :510px) {
+  #container {
+    background: #f7f7f7; font-size: 16px
+  }
+}
