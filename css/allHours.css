@@ -3,7 +3,7 @@
 
 /*서브페이지 공통  스타일*/
 .allHours .contTit h2  {  
-  text-align:center; background:#ffd200 ;
+  text-align:center; background:#ffe2e4 ;
   font-size: 24px; height: 80px; line-height: 80px; 
   margin-bottom: 0;
 }
@@ -22,10 +22,10 @@
   text-align: center; margin: 0 auto;
 }
 .allHours .medicalInfo {
-  background:#ffe2e4;
+  background: #ffffdd ;
   width: 100%;
   border-radius: 15px; 
-  border: 2px #ffd200 solid;
+  border: 2px #ffe2e4 solid;
   font-size: 16px;
   height: 410px;
 }

@@ -1,8 +1,8 @@
 (function ($){
 
 //로고를 클릭하면 main.html의 #content를 load()
-$('#content div a').on(function() {
-  var url = this.href  // $(this).attr('href')
+$('body').on('click','#content div a',function() {
+  var url= $(this).attr('href');
   $('#container > #content').remove(); 
   $('#container').load(url + " #content");
   return false;

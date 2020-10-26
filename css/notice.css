@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+.notice { margin: 0 auto; position: relative; padding-bottom: 50px;}
+.notice .contTit h2  {  
+  text-align:center; background:#ffd200 ;
+  font-size: 24px; height: 80px; line-height: 80px; 
+  margin-bottom: 0;
+}
+
+.notice .table { font-size: 14px;}
+.notice #pageList { position: absolute; left: 50%; transform: translate(-50%);}
