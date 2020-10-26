@@ -4,7 +4,7 @@
 /*서브페이지 공통  스타일*/
 .onlyCat .contTit h2  {  
   text-align:center; background:#ffd200 ;
-  font-size: 24px; height: 80px; line-height: 80px; 
+  font-size: 20px; height: 80px; line-height: 80px; 
   margin-bottom: 0;
 }
 
@@ -31,5 +31,5 @@
 }
 
 .onlyCat .medicalInfo img { width: 90%; padding: 15px 0; height: 200px ;}
-.onlyCat .medicalInfo h4 { font-size: 24px; font-weight: 600;}
+.onlyCat .medicalInfo h4 { font-size: 20px; font-weight: 600;}
 .onlyCat .medicalInfo p {margin: 5px;}
