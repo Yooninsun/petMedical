@@ -7,7 +7,7 @@
       "hours1" : "월~금요일 10:00 - 20:00",
       "hours2" : "토요일  10:00 - 20:00",
       "hompage" : "https://blog.naver.com/raonpet",
-      "img" : "../images/lion.jpg"
+      "img" : "images/lion.jpg"
       
     },
     {
@@ -17,7 +17,7 @@
       "hours1" : "평일 10 : 30 - 20 : 00 ",
       "hours2" : "일요/공휴일 10 : 30 - 20 : 00",
       "hompage" : "https://blog.naver.com/kmhcvt",
-      "img" : "../images/sekchon.jpg"
+      "img" : "images/sekchon.jpg"
     },
     {
       "name" : "잠실 종합동물병원",
@@ -26,7 +26,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" : "http://www.jamsilac.cafe24.com/",
-      "img" : "../images/jamsil.jpg"
+      "img" : "images/jamsil.jpg"
     },
     {
       "name" : "스킨앤이어 동물병원",
@@ -35,7 +35,7 @@
       "hours1" : "평일  09 : 30 - 18 : 30",
       "hours2" : "토요일  09 : 00 - 18 : 00 (일요/공휴일 휴무)",
       "hompage" :"https://skinnear.modoo.at/",
-      "img" : "../images/skinear.jpg"
+      "img" : "images/skinear.jpg"
     },
     {
       "name" : "송파동물 의료센터",
@@ -44,7 +44,7 @@
       "hours1" : "매일  09 : 00 - 22 : 00",
       "hours2" : "",
       "hompage" :"http://blog.naver.com/kangdvm",
-      "img" : "../images/songpa.jpg"
+      "img" : "images/songpa.jpg"
     },
     {
       "name" : "송파원 동물병원",
@@ -53,7 +53,7 @@
       "hours1" : "평일  10 : 00 - 20 : 00",
       "hours2" : "토/일요일  10 : 00 - 20 : 00",
       "hompage" :"http://www.songpawonah.co.kr/xe/",
-      "img" : "../images/one.jpg"
+      "img" : "images/one.jpg"
     },
     {
       "name" : "호수 동물병원",
@@ -62,7 +62,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/hosu.jpg"
+      "img" : "images/hosu.jpg"
     },
     {
       "name" : "펫가든 동물병원 월드타워점",
@@ -71,7 +71,7 @@
       "hours1" : "매일  10 : 00 - 21 : 00",
       "hours2" : "둘째,넷째 일요일 휴무",
       "hompage" :"http://blog.naver.com/petgardenwt",
-      "img" : "../images/garden.jpg"
+      "img" : "images/garden.jpg"
     },
     {
       "name" : "더샵 동물메디컬센터",
@@ -80,7 +80,7 @@
       "hours1" : "평일  10 : 00 - 21 : 00",
       "hours2" : "주말/공휴일 10:00 - 20 : 00",
       "hompage" :"https://blog.naver.com/thesharpah",
-      "img" : "../images/thesharp.jpg"
+      "img" : "images/thesharp.jpg"
     },
     {
       "name" : "헬리오동물병원",
@@ -89,7 +89,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10 : 00 - 20 :00",
       "hompage" :"https://blog.naver.com/helioamc",
-      "img" : "../images/helio.jpg"
+      "img" : "images/helio.jpg"
     },
     {
       "name" : "이룸 동물병원",
@@ -98,7 +98,7 @@
       "hours1" : "매일  10 : 00 - 21 : 30",
       "hours2" : "주말  10 : 00 - 21 : 00",
       "hompage" :"https://blog.naver.com/erumah",
-      "img" : "../images/irum.jpg"
+      "img" : "images/irum.jpg"
     },
     {
       "name" : "잠실준25시 동물병원",
@@ -107,7 +107,7 @@
       "hours1" : "월~토요일 10 : 00 - 21 : 00",
       "hours2" : "일요일  11 : 00 - 19 : 00",
       "hompage" :"https://blog.naver.com/vetjoon",
-      "img" : "../images/jun.jpg"
+      "img" : "images/jun.jpg"
     },
     {
       "name" : "리센츠스타 동물병원",
@@ -116,7 +116,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "토요일 10 : 00 - 19 : 00",
       "hompage" :"https://blog.naver.com/ricenzstar",
-      "img" : "../images/lsents.jpg"
+      "img" : "images/lsents.jpg"
     },
     {
       "name" : "행복한우리아이 동물병원",
@@ -125,7 +125,7 @@
       "hours1" : "매일  09 : 00 - 21 : 00",
       "hours2" : "토/일요일 휴무",
       "hompage" :"https://blog.naver.com/dnfldkdlah",
-      "img" : "../images/oriI.jpg"
+      "img" : "images/oriI.jpg"
     },
     {
       "name" : "위드펫 종합동물병원",
@@ -134,7 +134,7 @@
       "hours1" : "매일  19 : 30 - 20 : 00",
       "hours2" : "주말/공휴일 09 : 30 - 19 : 00 (연중무휴)",
       "hompage" :"https://blog.naver.com/withpetah",
-      "img" : "../images/widthpet.jpg"
+      "img" : "images/widthpet.jpg"
     },
     {
       "name" : "웰니스동물병원 롯데월드점",
@@ -143,7 +143,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00(수요일 18 : 00)",
       "hours2" : "주말 10 : 00 - 19 :00",
       "hompage" :"https://blog.naver.com/wellnesslw",
-      "img" : "../images/well.jpg"
+      "img" : "images/well.jpg"
     },
     {
       "name" : "꿈이크는 동물병원",
@@ -152,7 +152,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10 : 00 - 19 : 00",
       "hompage" :"https://blog.naver.com/rokvet",
-      "img" : "../images/dream.jpg"
+      "img" : "images/dream.jpg"
     },
     {
       "name" : "송파데일리 동물병원",
@@ -161,7 +161,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/daily.jpg"
+      "img" : "images/daily.jpg"
     },
     {
       "name" : "에코 동물병원",
@@ -170,7 +170,7 @@
       "hours1" : "매일  09 : 00 - 21 : 00",
       "hours2" : "주말 09 : 00 - 18 : 00",
       "hompage" :"https://blog.naver.com/ecoanimal",
-      "img" : "../images/eco.jpg"
+      "img" : "images/eco.jpg"
     },
     {
       "name" : "키다리 동물병원",
@@ -179,7 +179,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10 : 00 - 18 : 00 (일/공휴일 휴무)",
       "hompage" :"https://blog.naver.com/scarface928",
-      "img" : "../images/longleg.jpg"
+      "img" : "images/longleg.jpg"
     },
     {
       "name" : "리오 동물병원",
@@ -188,7 +188,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/rio.jpg"
+      "img" : "images/rio.jpg"
     },
     {
       "name" : "킴리 동물병원 ",
@@ -197,7 +197,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 정상진료",
       "hompage" :"-",
-      "img" : "../images/kimlee.jpg"
+      "img" : "images/kimlee.jpg"
     },
 
     {
@@ -207,7 +207,7 @@
       "hours1" : "매일  09 : 00 - 22 : 00",
       "hours2" : "토요/공휴일 10 : 00 - 18 :00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/beingamc",
-      "img" : "../images/onmom.jpg"
+      "img" : "images/onmom.jpg"
     },
     {
       "name" : "라임 동물병원",
@@ -216,7 +216,7 @@
       "hours1" : "매일  09 : 30 - 21 : 00",
       "hours2" : "토요일 09 : 30 - 19 : 00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/mino0917",
-      "img" : "../images/lime.jpg"
+      "img" : "images/lime.jpg"
     },
     {
       "name" : "유앤 동물의료원",
@@ -225,7 +225,7 @@
       "hours1" : "매일  10 : 00 - 21 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/un.jpg"
+      "img" : "images/un.jpg"
     },    
     {
       "name" : "에버펫 동물병원",
@@ -234,7 +234,7 @@
       "hours1" : "매일  09 : 30 - 21 : 00",
       "hours2" : "주말/공휴일 09 : 30 - 20 : 00",
       "hompage" :"https://blog.naver.com/everpet",
-      "img" : "../images/ever.jpg"
+      "img" : "images/ever.jpg"
     },   
     {
       "name" : "문정힐스 동물병원",
@@ -243,7 +243,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "토/일요일 10 : 00 - 19 : 00",
       "hompage" :"https://blog.naver.com/munjeonghills",
-      "img" : "../images/mjh.jpg"
+      "img" : "images/mjh.jpg"
     },
     {
       "name" : "채움 동물의료센터",
@@ -252,7 +252,7 @@
       "hours1" : "매일  09 : 30 - 22 : 00",
       "hours2" : "연중 무휴",
       "hompage" :"https://blog.naver.com/walkhappy12",
-      "img" : "../images/chaum.jpg"
+      "img" : "images/chaum.jpg"
     },    
     {
       "name" : "가락 동물병원",
@@ -261,7 +261,7 @@
       "hours1" : "매일  09 : 30 - 19 : 00",
       "hours2" : "토요일 09 : 30 - 17 : 00(일요/공휴일 휴무)",
       "hompage" :"-",
-      "img" : "../images/garak.jpg"
+      "img" : "images/garak.jpg"
     },        
     {
       "name" : "문정탑 동물병원",
@@ -270,7 +270,7 @@
       "hours1" : "매일  10 : 30 - 19 : 00",
       "hours2" : "토요일 10 : 00 - 17 :00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/mjtopah",
-      "img" : "../images/mjtop.jpg"
+      "img" : "images/mjtop.jpg"
     },    
     {
       "name" : "동물병원 알루",
@@ -279,7 +279,7 @@
       "hours1" : "매일  09 : 30 - 21 : 30",
       "hours2" : "일요일 09 : 30 - 19 : 00",
       "hompage" :"https://blog.naver.com/animalslikeus",
-      "img" : "../images/alu.jpg"
+      "img" : "images/alu.jpg"
     },    
     {
       "name" : "영국 동물병원",
@@ -288,7 +288,7 @@
       "hours1" : "매일  09 : 00 - 20 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/uk.jpg"
+      "img" : "images/uk.jpg"
     },
     {
       "name" : "마루 동물병원",
@@ -297,7 +297,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"https://blog.naver.com/marooah",
-      "img" : "../images/maru.jpg"
+      "img" : "images/maru.jpg"
     },
     {
       "name" : "위례S 동물의료센터",
@@ -306,7 +306,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"https://blog.naver.com/snuamc",
-      "img" : "../images/weS.jpg"
+      "img" : "images/weS.jpg"
     },
     {
       "name" : "위례 동물병원",
@@ -315,7 +315,7 @@
       "hours1" : "평일 10 : 00 - 20 : 00",
       "hours2" : "토요/공휴일 10 : 00 - 19: 00 (일요일 휴무) ",
       "hompage" :"https://blog.naver.com/wiryevet",
-      "img" : "../images/wr.jpg"
+      "img" : "images/wr.jpg"
     },
     {
       "name" : "희망 동물병원",
@@ -324,7 +324,7 @@
       "hours1" : "매일  09 : 00 - 20 : 00",
       "hours2" : "토요/공휴일  09 : 00 - 19 : 00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/hope19900",
-      "img" : "../images/heemang.jpg"
+      "img" : "images/heemang.jpg"
     },    
     {
       "name" : "두리 동물병원",
@@ -333,7 +333,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/duri.jpg"
+      "img" : "images/duri.jpg"
     },
     {
       "name" : "동물의왕국 동물병원",
@@ -342,7 +342,7 @@
       "hours1" : "매일  10 : 00 - 22 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/king.jpg"
+      "img" : "images/king.jpg"
     },
     {
       "name" : "노아 동물병원",
@@ -351,7 +351,7 @@
       "hours1" : "매일  10 : 00 - 21 : 00",
       "hours2" : "일요일 휴무",
       "hompage" :"-",
-      "img" : "../images/noa.jpg"
+      "img" : "images/noa.jpg"
     },
     {
       "name" : "늘푸른 종합동물병원",
@@ -360,7 +360,7 @@
       "hours1" : "매일  09 : 30 - 19 : 00",
       "hours2" : "토요/공휴일 09 : 30 - 16 : 00 (일요일 휴무)",
       "hompage" :"-",
-      "img" : "../images/always.jpg"
+      "img" : "images/always.jpg"
     },
     {
       "name" : "쿨독 동물병원",
@@ -369,7 +369,7 @@
       "hours1" : "매일  09 : 30 - 19 : 30",
       "hours2" : "토요일 09 : 30 - 18 :30 (일요일 휴무)",
       "hompage" :"-",
-      "img" : "../images/cooldog.jpg"
+      "img" : "images/cooldog.jpg"
     },
     {
       "name" : "김민재 동물병원",
@@ -378,7 +378,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10: 00 - 19 : 00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/kmjhkn0075",
-      "img" : "../images/kmj.jpg"
+      "img" : "images/kmj.jpg"
     },
     {
       "name" : "한양 종합동물병원",
@@ -387,7 +387,7 @@
       "hours1" : "매일  09 : 00 - 21 : 30",
       "hours2" : "연중 무휴",
       "hompage" :"-",
-      "img" : "../images/hy.jpg"
+      "img" : "images/hy.jpg"
     },
     {
       "name" : "청담 동물종합병원",
@@ -396,7 +396,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10 : 00 - 18 : 00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/chungdam_ah",
-      "img" : "../images/chung.jpg"
+      "img" : "images/chung.jpg"
     },
     {
       "name" : "더오 동물병원",
@@ -405,7 +405,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "토요일 10 : 00 - 14 : 30 (일요일 휴무)",
       "hompage" :"https://www.instagram.com/the_o_animal/",
-      "img" : "../images/theO.jpg"
+      "img" : "images/theO.jpg"
     },
     {
       "name" : "바우 동물병원",
@@ -414,7 +414,7 @@
       "hours1" : "매일  10 : 00 - 20 : 00",
       "hours2" : "토요일 10 : 00 - 20 : 00 (일요일 휴무)",
       "hompage" :"https://blog.naver.com/dvmbau",
-      "img" : "../images/bou.jpg"
+      "img" : "images/bou.jpg"
     }
   ],
   
@@ -426,7 +426,7 @@
       "hours1" : "매일 00:00 -24:00",
       "hours2" : "연중무휴",
       "hompage" : "http://shineamc.com/",
-      "img" : "../images/shine.jpg"
+      "img" : "images/shine.jpg"
     },
     {
       "name" : "24시베스트 동물메디컬센터",
@@ -435,7 +435,7 @@
       "hours1" : "매일 00:00 -24:00",
       "hours2" : "연중무휴",
       "hompage" :"http://cafe.daum.net/bestamcbeauty",
-      "img" : "../images/best.jpg"
+      "img" : "images/best.jpg"
     },
     {
       "name" : "24시페토피아 동물병원",
@@ -444,7 +444,7 @@
       "hours1" : "매일 00:00 -24:00",
       "hours2" : "연중무휴",
       "hompage" :"",
-      "img" : "../images/peto.jpg"
+      "img" : "images/peto.jpg"
     },
     {
       "name" : "헬릭스 동물메디컬센터",
@@ -453,7 +453,7 @@
       "hours1" : "매일 00:00 -24:00",
       "hours2" : "연중무휴",
       "hompage" :"http://www.helix-amc.com/",
-      "img" : "../images/heliks.jpg"
+      "img" : "images/heliks.jpg"
     },
     {
       "name" : "24시잠실on 동물의료센터",
@@ -462,7 +462,7 @@
       "hours1" : "매일 00:00 -24:00",
       "hours2" : "연중무휴",
       "hompage" :"http://24onamc.com/",
-      "img" : "../images/json.jpg"
+      "img" : "images/json.jpg"
     },
     {
       "name" : "25시종합동물병원",
@@ -471,7 +471,7 @@
       "hours1" : "매일 09 : 00 - 21:00",
       "hours2" : "매일 21 : 00 -09 : 00",
       "hompage" :"https://blog.naver.com/jamsil25h",
-      "img" : "../images/total25.jpg"
+      "img" : "images/total25.jpg"
     },
     {
       "name" : "송파스마일 동물병원",
@@ -480,7 +480,7 @@
       "hours1" : "매일  00 : 00 - 24 : 00",
       "hours2" : "연중무휴",
       "hompage" :"https://blog.naver.com/drdnc",
-      "img" : "../images/smile.jpg"
+      "img" : "images/smile.jpg"
     },
     {
       "name" : "송파바로 동물병원",
@@ -489,7 +489,7 @@
       "hours1" : "매일  00 : 00 - 24 : 00",
       "hours2" : "연중무휴",
       "hompage" :"https://blog.naver.com/baroah",
-      "img" : "../images/baro.jpg"
+      "img" : "images/baro.jpg"
     }
   ],
     "onlyCat" : [
@@ -500,7 +500,7 @@
       "hours1" : "매일  10 : 00 - 19 : 00",
       "hours2" : "토요일 10 : 00 - 19: 00",
       "hompage" :"http://drcat.pet-mate.net/",
-      "img" : "../images/doctor.jpg"
+      "img" : "images/doctor.jpg"
     }
   ]
 }
