@@ -1,7 +1,7 @@
 (function ($){
 
-//로고를 클릭하면 main.html의 #content를 load()
-$('body').on('click','#content div a',function() {
+//클릭한 a의  href의 #content를 load()
+$('body').on('click','#content div a, .r_menu div a',function() {
   var url= $(this).attr('href');
   $('#container > #content').remove(); 
   $('#container').load(url + " #content");

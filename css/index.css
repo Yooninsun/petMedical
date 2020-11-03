@@ -1,8 +1,12 @@
 @charset 'utf-8';
 
-* {font-family: 'Gamja Flower', cursive;}
+* {
+  font-family: 'Gamja Flower', cursive;
+}
 .row { max-width: 768px;}
-
+a {
+  text-decoration: none;
+}
 #wrap {
   max-width: 768px;
   margin: 0 auto;
@@ -34,8 +38,8 @@
 
 #header #close_menu,
 #header #lnb_menu {
-  position: absolute; left: 20px; bottom: 20px;
-  display: none;  font-size: 25px; 
+  position: absolute; left: 20px; bottom: 12px;
+  display: none;  font-size: 25px;  color: #555;
 }
 
 #header #lnb_menu.on,
@@ -44,14 +48,33 @@
 }
 
 #header .r_menu {
- position: absolute; right: 20px; bottom: 20px;
+ position: absolute; right: 20px; top: 25px; 
+ text-align: right;
 }
 
-#header .r_menu .search a,
-#header .r_menu .bookMark a {
-  font-size: 18px; padding: 20px 10px;
+#header .r_menu .join > a,
+#header .r_menu .login > a {
+  padding: 3px 5px 0px;
+  font-size: 12px; font-weight: 600;
+  color: #555;
 }
 
+#header .r_menu .search i {
+  padding: 3px 5px; margin: 5px 0 0;
+  font-size: 14px;
+  color:  #555;
+  border-radius: 3px;
+}
+
+#header .r_menu .join > a:hover,
+#header .r_menu .login > a:hover  {
+  font-size: 14px;
+  border-bottom: solid 1px #555;
+}
+
+#header .r_menu .search > a:hover i {
+  font-size: 20px;
+} 
 
 #lnb_navi { 
   background: #e9e0ce; text-align: center; display: none;
