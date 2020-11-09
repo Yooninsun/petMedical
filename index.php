@@ -20,7 +20,14 @@
 </head>
 <body>
   <div id="wrap">
-    
+
+  <?php
+
+  session_start();
+  if(isset($_SESSION['userId'])) {
+    $userId =
+  }
+
     <header id="header">
       <h1 class="logo">
         <a href="index.html"><img src="images/petmedical_logo.png" alt="로고이미지" width="180px"></a>

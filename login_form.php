@@ -56,53 +56,31 @@
 
 
     <section id="container">
-      <div id="content" class="mainContent">
-        <div id="notice" class="row">
-          <div class="boarder col-12 col-md-12">
-            <a href="notice.html">
-              <img src="images/main1.jpg" alt="강아지 이미지" height="100px" ">
-              <span>필독 공지사항</span>
-            </a>
-          </div>
+      <div id="content" class="loginPage">
+        <div class="contTit">
+          <h2>로그인 페이지</h2>
         </div>
-        <div class="row">
-          <div class="allDay col-6 col-md-6"> 
-            <a href="allHours.html" class="allHours">
-              <img src="images/main2.jpg" alt="강아지 이미지" height="100px" width="80px">
-              <sapn>24시동물병원</sapn>
-            </a>
-          </div>
-          <div class="forCat col-6 col-md-6">
-            <a href="onlyCat.html" class="onlyCat">
-              <img src="images/main3.jpg" alt="고양이 이미지" height="100px" width="60px">              
-              <span>고양이전문병원</span>
-          </a>
-          </div>
-        </div>
-        <div id="allList" class="row">
-          <div class="hospital col-12 col-md-12">
-            <a href="medicalList.html" class="allCenter">
-              <img src="images/main4.jpg" alt="강아지 이미지" height="100px" >
-              <span>전체 병원 리스트</span>
-            </a>
-          </div>
-        </div>
-        <div id="service" class="row">
-          <div class="hotel col-6 col-md-6">
-            <a href="#">
-              <img src="images/main5.jpg" alt="고양이강아지 이미지" height="100px" width="80px">
-              <span>호텔서비스</span>
-            </a>
-          </div>
-          <div class="salon col-6 col-md-6">
-            <a href="#">
-              <img src="images/main6.jpg" alt="목욕하는 이미지" height="100px" width="80px">             
-               <span>미용서비스</span>
-            </a>
+        <div class="wrapper_loginBox">
+
+          <div class="loginBox">
+              <form name="login_form" method="post"     action="login.php">
+                <fieldset>
+                    <legend>로그인페이지</legend>
+                    <p>
+                        <label for="userId">아이디</label>
+                        <input type="text" name="userId"    id="userId" placeholder="아이디 입력">
+                    </p>
+                    <p>
+                        <label for="pw">비밀번호</label>
+                        <input type="password" name="pw" id="pw"    placeholder="비밀번호 입력">
+                    </p>
+                </fieldset>
+                <button type="button" onclick="login_check() ">로그인</button>
+              </form>
           </div>
         </div>
       </div>
-    </section>
+</section>
 
     <footer id="footer">
       <div class="callBox row">

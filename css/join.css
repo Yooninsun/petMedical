@@ -1,51 +1,67 @@
 @charset 'utf-8';
 
-.loginPage {
-  background: #eee;
+.joinPage {
+  background: seashell;
 }
 
-.loginPage .contTit  {
-  background: #eee;
+.joinPage .contTit  {
+  background: seashell;
   height: 80px; 
   text-align: center; font-size: 20px; 
   border-bottom: 1px solid #666;
-  margin-bottom: 0;
 }  
-.loginPage .contTit h2{
+.joinPage .contTit h2{
   line-height: 80px;
   font-size: 24PX
 }
 
-.loginPage .wrapper_loginBox {
+.joinPage .wrapper_joinBox {
   padding: 30px;
+  margin: 0 auto;
 }
-.loginPage .wrapper_loginBox .loginBox {
-  width: 80%; height: 300px;
+.joinPage .wrapper_joinBox .joinBox {
+  width: 80%; /* height: 500px; */
   margin: 30px auto;
   padding: 70px 20px;
   background: #fff;
   text-align: center;
   border-radius: 15px;
-}
-.loginPage .wrapper_loginBox .loginBox label {
-  width: 90px; height: 30px; 
-  margin-right: 10px;
-}
-.loginPage .wrapper_loginBox .loginBox input {
-  background: seashell;
-  border-radius: 4px;
-  text-align: center;
+  border: 1px solid #0ff;
+  text-align: left;
+  overflow-y: auto;
 }
 
-.loginPage .wrapper_loginBox button {
- padding: 2px 15px;
+.joinPage .wrapper_joinBox .joinBox label {
+  width: 90px; height: 30px; 
+  margin-right: 10px; 
+}
+.joinPage .wrapper_joinBox .joinBox input {
+  width: 120px; height:30px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  position: relative;
+  margin: 0 5px;
+}
+.joinPage .wrapper_joinBox .joinBox select {
+  width: 100px; height:30px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.joinPage .wrapper_joinBox .btnBox {
+  margin: 20px auto;
+  text-align: center;
+}
+.joinPage .wrapper_joinBox button {
+ padding:0 10px;
+ height: 30px;
  margin-top: 10px;
  border-radius: 5px;
- background: #eee;
+ background: seashell;
  border: 1.5px solid silver;
 }
 
-.loginPage .wrapper_loginBox button:hover {
+.joinPage .wrapper_joinBox button:hover {
   color: #fff;
   background: #999;
 }
