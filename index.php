@@ -6,14 +6,7 @@
   <link rel="shortcut icon" href="images/favicon.png">
   <title>송파구 동물병원 안내</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/medicalList.css">
-  <link rel="stylesheet" href="css/allHours.css">
-  <link rel="stylesheet" href="css/forCat.css">
-  <link rel="stylesheet" href="css/notice.css">
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/join.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -25,8 +18,11 @@
 
   session_start();
   if(isset($_SESSION['userId'])) {
-    $userId =
-  }
+    $userId = $_SESSION['userId'];
+    $userName = $_SESSION['userName'];
+  } else {$userId='';}
+  
+  ?>
 
     <header id="header">
       <h1 class="logo">
@@ -39,10 +35,14 @@
         <a href="#"><i class="fas fa-times"><span class="blind">메뉴닫기</span></i></a>
       </div>
       <div class="r_menu">
-          <div class="join"><a href="join.html">회원가입</a></div>
-          <div class="login"><a href="login.html">로그인</a></div>
-          <div class="search"><a href="#"><i class="fas fa-search"></i><span class="blind">검색</span></a></div>
-        
+          <?php if(!$userId) { ?>
+            <div class="join"><a href="join.html">회원가입</a></div>
+            <div class="login"><a href="login.html">로그인</a></div>
+          <?php } else { ?>
+            <div><?php echo $userName ?>님 환영합니다.</div>  
+            <div><a href="logout.php">로그아웃</a></div>
+            <div class="search"><a href="#"><i class="fas fa-search"></i><span class="blind">검색</span></a></div>
+          <?php } ?>  
       </div>
     </header>
     <div class="lnb_outer">

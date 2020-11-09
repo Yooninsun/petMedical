@@ -1,7 +1,7 @@
 (function ($){
 
 //클릭한 a의  href의 #content를 load()
-$('body').on('click','#content div a, .r_menu div a',function() {
+$('body').on('click','#content div a, .r_menu .login > a, .r_menu .join > a',function() {
   var url= $(this).attr('href');
   $('#container > #content').remove(); 
   $('#container').load(url + " #content");
@@ -68,71 +68,84 @@ $('body').on('click', '#lnb_navi a', function(e) {
   $('#lnb_menu').addClass('on');
 })
 
+})(jQuery)
+
+/* 회원가입페이지 check */
+
 function join_check() {
-
-  if ( !document.join_form.id.value ) {
-    alert('아이디를 입력하세요!')
-    document.join_form.userId.focus()
-    return false
+  if ( !document.join_form.userId.value) {
+    alert('아이디를 입력해주세요.');
+    document.join_form.userId.focus();
+    return false;
   }
 
-  if ( !document.join_form.pass.value ) {
-    alert('비밀번호를 입력하세요!')
-    document.member_form.pw.focus()
-    return false
+  if ( !document.join_form.pw.value) {
+    alert('비밀번호를 입력해주세요.');
+    document.join_form.pw.focus();
+    return false;
+  }
+  if ( !document.join_form.pwCheck.value) {
+    alert('비밀번호 확인을 입력해주세요.');
+    document.join_form.pwCheck.focus();
+    return false;
   }
 
-  if ( !document.join_form.passok.value ) {
-    alert('비밀번호 확인을 입력하세요!')
-    document.member_form.pwCheck.focus()
-    return false
+  if( !document.join_form.userName.value) {
+    alert('이름을 입력해주세요.');
+    document.join_form.userName.focus();
+    return false;
   }
 
-  if ( !document.join_form.name.value ) {
-    alert('이름을 입력하세요!')
-    document.member_form.userName.focus()
-    return false
+  if ( !document.join_form.tel.value) {
+    alert('전화번호를 입력햊세요.');
+    document.join_form.tel.focus();
+    return false;
   }
 
-  if ( !document.join_form.tel.value ) {
-    alert('전화번호를 입력하세요!')
-    document.member_form.tel.focus()
-    return false
+  if (document.join_form.pw.value !== document.join_form.pwCheck.value) {
+    alert('비밀번호가 일치하지 않습니다. 확인해주세요.');
+    document.join_form.pw.focus();
+    return false;
   }
 
-  if (document.join_form.pw.value !== document.join_form.pwCheck.value ) {
-    alert('비밀번호가 일치하지 않습니다.')
-    document.member_form.pass.focus()
-    return false
+  var eljoinform = document.getElementById('joinform')
+  if (!eljoinform.classList.contains('on')) {
+    alert('아이디 중복체크 해주세요!!')
+    return false;
   }
 
-  document.join_form.submit()
+  document.join_form.submit();
 
 }
 
+/* 로그인 체크 */
 function login_check() {
-  if ( !document.login_form.id.value ) {
-    alert('아이디를 입력하세요!')
-    document.login_form.id.focus()
-    return false
+  if (!document.login_form.userId.value) {
+    alert('아이디를 입력해주세요.');
+    document.login_form.userId.focus();
+    return false;
   }
 
-  if ( !document.login_form.pw.value ) {
-    alert('비밀번호를 입력하세요!')
-    document.login_form.pw.focus()
-    return false
+  if(!document.login_form.pw.value) {
+    alert('비밀번호를 입력해주세요.');
+    document.login_form.pw.focus();
+    return false;
   }
 
   document.login_form.submit();
+
 }
 
 function id_check() {
-  //window.open("url", "창제목", "옵션값")
-  window.open("id_check.php?id="+document.join_form.id.value,"","width=350, height=200, left=300, top=300, scrollbars=no, resizalge=yes")
+  //window.open("url","창제목","옵션값")
+  window.open("id_check.php?userId="+document.join_form.userId.value,"","width=350, height=200, left= 300, top= 300, scrollbars=no, resizable=yes")
+
 }
 
 
 
 
 
-})(jQuery)
+
+
+

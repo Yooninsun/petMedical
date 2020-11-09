@@ -12,7 +12,8 @@
   if(!$num_match){
     echo ("
       <script>
-        alert('등록되지 않은 아이디입니다.')
+        alert('등록되지 않은 아이디입니다.');
+        history.go(-1)
       </script>  
     ");
     exit;

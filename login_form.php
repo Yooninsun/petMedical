@@ -6,14 +6,7 @@
   <link rel="shortcut icon" href="images/favicon.png">
   <title>송파구 동물병원 안내</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/medicalList.css">
-  <link rel="stylesheet" href="css/allHours.css">
-  <link rel="stylesheet" href="css/forCat.css">
-  <link rel="stylesheet" href="css/notice.css">
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/join.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -21,6 +14,14 @@
 <body>
   <div id="wrap">
     
+    <?php
+    session_start();
+    if (isset($_SESSION['userId'])) {
+      $userId = $_SESSION['userId'];
+      $userName = $_SESSION['name'];
+    } else { $userId=''; }
+    ?>
+
     <header id="header">
       <h1 class="logo">
         <a href="index.html"><img src="images/petmedical_logo.png" alt="로고이미지" width="180px"></a>
@@ -38,6 +39,7 @@
         
       </div>
     </header>
+
     <div class="lnb_outer">
       <div class="lnb_inner">
         <div id="lnb_navi">
@@ -63,7 +65,7 @@
         <div class="wrapper_loginBox">
 
           <div class="loginBox">
-              <form name="login_form" method="post"     action="login.php">
+              <form name="login_form" method="post" action="login.php">
                 <fieldset>
                     <legend>로그인페이지</legend>
                     <p>
@@ -75,12 +77,12 @@
                         <input type="password" name="pw" id="pw"    placeholder="비밀번호 입력">
                     </p>
                 </fieldset>
-                <button type="button" onclick="login_check() ">로그인</button>
+                <button type="button" onclick="login_check()">로그인</button>
               </form>
           </div>
         </div>
       </div>
-</section>
+    </section>
 
     <footer id="footer">
       <div class="callBox row">
@@ -108,10 +110,13 @@
       </div>
       <p>&copy Pet Medical In SongPa. All rights reserved</p>
     </footer>
+  
+    <div id="onlyMobile">
+        이 사이트는 768px 이하에서만 보실 수 있습니다.
+    </div>
+
   </div>
-  <div class="" id="onlyMobile">
-    이 사이트는 768px 이하에서만 보실 수 있습니다.
-  </div>
+
   <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->

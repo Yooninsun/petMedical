@@ -11,22 +11,32 @@
 
 <?php
 
-$id = $_GET['id'];
+$userId = $_GET['userId'];
 //주소창에 직접 값을 담아서 php프로그램을 호출할때는 전역변수 $_GET[]을 사용함
 
-if (!$id) {
+if (!$userId) {
   echo ("<p>아이디를 입력해주세요</p>");
 } else {
   $con = mysqli_connect('localhost','user1','12345','sample');
-  $sql = "select * from petmedical wher id='$id'";
+  $sql = "select * from petmedical wher id='$userId'";
   $result = mysqli_query($con, $sql);
 
   $num_record = mysqli_num_rows($result);
   if ($num_record) {
-    echo "<p>".$id."이 아이디는 이미 사용중입니다.</p>";
+    echo "<p>".$userId."이 아이디는 이미 사용중입니다.</p>";
     echo "<p>다른 아이디를 사용해주세요.</p>";
+    echo ("
+      <script>
+        window.opener.document.getElementById('joinform').classList.remove('on')
+      </script>
+    ");
   } else {
-      echo "<p>".$id."사용가능한 아이디입니다.</p>"
+      echo "<p>".$userId."사용가능한 아이디입니다.</p>";
+      echo ("
+        <script>
+          window.opener.document.getElementById('joinform').classList.add('on')
+        </script>
+      ");
   }
 
   mysqli_close($con);
