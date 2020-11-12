@@ -4,7 +4,7 @@
   $pw = $_POST['pw'];
 
   $con = mysqli_connect('localhost','user1','12345','sample');
-  $sql = "select * from petmedical where id='$id'";
+  $sql = "select * from petmedical where userId='$id'";
   $result = mysqli_query($con, $sql);
 
   $num_match = mysqli_num_rows($result);//매칭된 레코드 수를 카운트함
@@ -36,8 +36,8 @@
       //session : 대화 처리로 이용자가 단말을 사용하고부터 사용이 끝나기까지를 말함. 
       //즉 login 명령을 입력하고 logout명령을 입력하기까지의 사이를 말함.
       session_start(); //세션을 활성화됨
-      $_SESSION['userId'] = $row['id'];
-      $_SESSION['userName'] = $row['name'];
+      $_SESSION['userId'] = $row['userId'];
+      $_SESSION['userName'] = $row['userName'];
       echo ("
         <script>
           location.href = 'index.php';

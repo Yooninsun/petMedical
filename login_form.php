@@ -14,31 +14,37 @@
 <body>
   <div id="wrap">
     
-    <?php
-    session_start();
-    if (isset($_SESSION['userId'])) {
-      $userId = $_SESSION['userId'];
-      $userName = $_SESSION['name'];
-    } else { $userId=''; }
-    ?>
+  <?php
 
-    <header id="header">
-      <h1 class="logo">
-        <a href="index.html"><img src="images/petmedical_logo.png" alt="로고이미지" width="180px"></a>
-      </h1>
-      <div id="lnb_menu" class="lnb_menu on">
-        <a href="#"><i class="fas fa-bars"><span class="blind">메뉴열기</span></i></a>
-      </div>
-      <div id="close_menu" class="close_menu">
-        <a href="#"><i class="fas fa-times"><span class="blind">메뉴닫기</span></i></a>
-      </div>
-      <div class="r_menu">
+session_start();
+if(isset($_SESSION['userId'])) {
+  $userId = $_SESSION['userId'];
+  $userName = $_SESSION['userName'];
+} else {$userId='';}
+
+?>
+
+  <header id="header">
+    <h1 class="logo">
+      <a href="index.html"><img src="images/petmedical_logo.png" alt="로고이미지" width="180px"></a>
+    </h1>
+    <div id="lnb_menu" class="lnb_menu on">
+      <a href="#"><i class="fas fa-bars"><span class="blind">메뉴열기</span></i></a>
+    </div>
+    <div id="close_menu" class="close_menu">
+      <a href="#"><i class="fas fa-times"><span class="blind">메뉴닫기</span></i></a>
+    </div>
+    <div class="r_menu">
+        <?php if(!$userId) { ?>
           <div class="join"><a href="join.html">회원가입</a></div>
           <div class="login"><a href="login.html">로그인</a></div>
+        <?php } else { ?>
+          <div><?php echo $userName ?>님 환영합니다.</div>  
+          <div><a href="logout.php">로그아웃</a></div>
           <div class="search"><a href="#"><i class="fas fa-search"></i><span class="blind">검색</span></a></div>
-        
-      </div>
-    </header>
+        <?php } ?>  
+    </div>
+  </header>
 
     <div class="lnb_outer">
       <div class="lnb_inner">

@@ -45,6 +45,7 @@
           <?php } ?>  
       </div>
     </header>
+    
     <div class="lnb_outer">
       <div class="lnb_inner">
         <div id="lnb_navi">

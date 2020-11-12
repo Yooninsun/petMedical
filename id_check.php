@@ -18,7 +18,7 @@ if (!$userId) {
   echo ("<p>아이디를 입력해주세요</p>");
 } else {
   $con = mysqli_connect('localhost','user1','12345','sample');
-  $sql = "select * from petmedical wher id='$userId'";
+  $sql = "select * from petmedical where userId='$userId'";
   $result = mysqli_query($con, $sql);
 
   $num_record = mysqli_num_rows($result);

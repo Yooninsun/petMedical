@@ -7,7 +7,7 @@ $tel = $_POST['tel'];
 $email = $_POST['userEmail'];
 
 $con = mysqli_connect('localhost', 'user1', '12345','sample');
-$sql = "insert into petmedical (id,pw,name,tel,email)";
+$sql = "insert into petmedical (userId,pw,userName,tel,userEmail) ";
 $sql .= "values('$id','$pw','$name','$tel','$email')";
 
 mysqli_query($con, $sql);
